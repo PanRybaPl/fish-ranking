@@ -1,0 +1,9 @@
+name: Ranking
+version: 0.2
+main: pl.panryba.mc.ranking.Plugin
+database: true
+depend: [FishDb]
+commands:
+  ranking:
+    description: Wyswietla Twoj aktualny ranking PVP
+    usage: /<command> [nick gracza]
